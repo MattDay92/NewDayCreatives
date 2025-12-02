@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+
+}
+
+
+html,
+body {
+    background: linear-gradient(0deg, rgb(172, 111, 187) 0%, rgb(75, 19, 93) 65%);
+    background-attachment: fixed;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 0px solid black;
+}
+
+a:hover {
+    color: rgb(214, 191, 86);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+p {
+    font-size: 1.7vw;
+}
+
+/* ----------------------NAV---------------------------- */
+
+nav {
+    position: fixed;
+    background: rgb(0, 0, 0);
+    height: 10vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    font-family: "Permanent Marker";
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+}
+
+.nav-logo-div {
+    height: 8vh !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    transition: 0.5s;
+}
+
+.nav-logo {
+    height: 90%;
+    opacity: 1;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+
+.nav-logo.show {
+    opacity: 1;
+}
+
+/* ------------------------------FOOTER---------------------------- */
+
+footer {
+  min-height: 15vh;
+  background: black;
+}

@@ -1,0 +1,31 @@
+#home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.HomeLogo {
+    width: 70vw;
+    margin: auto;
+    padding-top: 20vh;
+}
+
+.HomeLogo img {
+    width: 100%;
+}
+
+.HomeLinksDiv {
+    width:  70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 20vh;
+}
+
+.HomeLink {
+    background: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
