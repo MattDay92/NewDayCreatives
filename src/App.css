@@ -75,6 +75,10 @@ nav {
     margin-top: 5px;
 }
 
+.nav-logo img {
+    height: 110%;
+}
+
 .nav-logo.show {
     opacity: 1;
 }

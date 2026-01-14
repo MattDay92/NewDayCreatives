@@ -37,19 +37,12 @@ export default function Music({currentPage, setCurrentPage}) {
                         <div class='about-2'>
                             <div class="normal-font">
                                 Matt Day is a musical theatre composer/lyricist and professional guitarist currently based out
-                                of Indianapolis, IN. After graduating from Indiana University, he began work on composing his
-                                first
-                                musical, <em> Paper Swords</em>, which was an award winner at the 2020 Chicago Musical Theatre
-                                Festival.
-                                Matt’s other work includes <em>Make Me A Match</em>, which won the 2019 IndyFringe Audience
-                                Choice Award,
-                                <em>Super Mario is Dead </em>, premiering at the 2023 IndyFringe Festival, and a few other
-                                projects still in early development. His work has also been
+                                of Indianapolis, IN. His work includes <em> Paper Swords</em> (2020 Chicago Musical Theatre
+                                Festival), <em>Make Me A Match</em> (2019 IndyFringe Audience Choice Award), 
+                                <em>Super Mario is Dead </em>, and <em>Murders at Maniac Manor</em>. His work has also been
                                 accepted to various cabarets including the Allen and Grey New Voices Concert, the Latest Draft
                                 Podcast, and the Under the
-                                Arch Incubator in St. Louis, MO. Matt's first album, Different Lens, containing songs from
-                                <em>Paper Swords</em>
-                                and <em>Make Me A Match</em> is available on Spotify, Apple Music, Napster, and anywhere else
+                                Arch Incubator in St. Louis, MO. Matt's songs are available for streaming on Spotify, Apple Music, Napster, and anywhere else
                                 you want to look.
                             </div>
                             <div class="social-icons">
@@ -74,13 +67,13 @@ export default function Music({currentPage, setCurrentPage}) {
                         <h2 class="section-header works-section-header">Works</h2>
                     </div>
                     <div class="works-IMGs">
-                        <a><img class="works-IMG" alt="Paper Swords Logo"
+                        <a href='https://mattdaymusic.net/PaperSwords.html' target='_blank'><img class="works-IMG" alt="Paper Swords Logo"
                             src={PaperSwordsLogo} /></a>
-                        <a><img class="works-IMG" alt="Make Me A Match Logo"
+                        <a href='https://player2productions.com/MakeMeAMatch' target='_blank'><img class="works-IMG" alt="Make Me A Match Logo"
                             src={MMAMLogo} /></a>
-                        <a><img class="SMID-works-IMG works-IMG" alt="Super Mario is Dead Logo"
+                        <a href='https://player2productions.com/SuperMarioIsDead' target='_blank'><img class="SMID-works-IMG works-IMG" alt="Super Mario is Dead Logo"
                             src={SMIDLogo} /></a>
-                        <a><img class="works-IMG" alt="Maniac Manor Logo"
+                        <a href='https://player2productions.com/ManiacManor' target='_blank'><img class="works-IMG" alt="Maniac Manor Logo"
                             src={ManiacManorLogo} /></a>
                     </div>
                 </div>

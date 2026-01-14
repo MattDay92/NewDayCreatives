@@ -8,27 +8,27 @@ export default function Nav({ currentPage }) {
             {currentPage === 'music' ? <>
                 <div className='nav-logo-div'>
                     <Link to={'/arrangements'} className='navLink'>Arrangements</Link>
-                    <img className='nav-logo' src={Logo} />
+                    <Link to={'/'} className='nav-logo'><img src={Logo} /></Link>
                     <Link to={'/websites'} className='navLink'>Web Development</Link>
                 </div>
             </> : 
             currentPage === 'arrangements' ? <>
                 <div className='nav-logo-div'>
                     <Link to={'/music'} className='navLink'>Composer/Lyricist</Link>
-                    <img className='nav-logo' src={Logo} />
+                    <Link to={'/' } className='nav-logo'><img src={Logo} /></Link>
                     <Link to={'/websites'} className='navLink'>Web Development</Link>
                 </div>
             </> :
             currentPage === 'websites' ? <>
                 <div className='nav-logo-div'>
                     <Link to={'/music'} className='navLink'>Composer/Lyricist</Link>
-                    <img className='nav-logo' src={Logo} />
+                    <Link to={'/'} className='nav-logo'><img src={Logo} /></Link>
                     <Link to={'/websites'} className='navLink'>Arrangements</Link>
                 </div>
             </> :
             <>
                 <div className='nav-logo-div'>
-                    <img className='nav-logo' src={Logo} />
+                    <Link to={'/'} className='nav-logo'><img src={Logo} /></Link>
                 </div>
             </>
             }
